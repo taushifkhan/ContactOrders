@@ -28,26 +28,26 @@ for a defined Minimum residue distance to maximum residue distance cutoff
 #Usage
 
 --------------Analyzing multiple pdb files (input as list line terminated and tab separated)
-$ python contactOrders_List.py -h
-usage: contactOrders_List.py [-h] [-p PDBFL] [-d PDBDIR] [-o OUTFL]
+    $ python contactOrders_List.py -h
+    usage: contactOrders_List.py [-h] [-p PDBFL] [-d PDBDIR] [-o OUTFL]
 
-optional arguments:
-  -h, --help  show this help message and exit
-  -p PDBFL    pdb file and chain
-  -d PDBDIR   PDB directory As in Only Beta:
-              ./allPDbs/Data/PDB_files/
-  -o OUTFL    output file name
+    optional arguments:
+      -h, --help  show this help message and exit
+      -p PDBFL    pdb file and chain
+      -d PDBDIR   PDB directory As in Only Beta:
+                  ./allPDbs/Data/PDB_files/
+      -o OUTFL    output file name
 
------------ For individual pdb file--------------
+    ----------- For individual pdb file--------------
 
-python contactOrders.py -h
-usage: contactOrders.py [-h] [-p PDBFL] [-c CHAIN]
-
-optional arguments:
-  -h, --help  show this help message and exit
-  -p PDBFL    pdb file
-  -c CHAIN    chain
-
+    python contactOrders.py -h
+    usage: contactOrders.py [-h] [-p PDBFL] [-c CHAIN]
+    
+    optional arguments:
+      -h, --help  show this help message and exit
+      -p PDBFL    pdb file
+      -c CHAIN    chain
+    
 
 #Reference
 
