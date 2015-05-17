@@ -27,7 +27,8 @@ for a defined Minimum residue distance to maximum residue distance cutoff
 
 #Usage
 
---------------Analyzing multiple pdb files (input as list line terminated and tab separated)
+---Analyzing multiple pdb files (input as list line terminated and tab separated)---
+
     $ python contactOrders_List.py -h
     usage: contactOrders_List.py [-h] [-p PDBFL] [-d PDBDIR] [-o OUTFL]
 
